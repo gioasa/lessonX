@@ -3,21 +3,26 @@
     .nav-list {
         display: none;
     }
+
     .chevron {
         display: block;
         margin-top: 73px;
     }
+
     .fa-search {
         display: none;
     }
+
     .form {
-        display: flex;
-        
-        justify-content: center;
+        margin: 0 auto;
     }
-    .input {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
+    .footer-text {
+        font-size: 10px;
+    }
+
+    .fb, .ig {
+        font-size: 30px;
+        margin-left: 0%;
     }
 }
