@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="https://kit.fontawesome.com/1a849f7e50.js" crossorigin="anonymous"></script>
     <title>Send out</title>
 </head>
@@ -14,13 +15,15 @@
     <header>
         <div class="navigation">
             <img class="black" src="img/black.svg" alt="black">
-            <ul class="nav">
-                <li class="nav-list">პროექტის შესახებ</li>
-                <li class="nav-list">მოთხოვნები</li>
-                <li class="nav-list">EXPLORE</li>
-                <li class="nav-list">შესვლა</li>
-            </ul>
-            <i class="fas fa-search"></i>
+            <div class="search">
+                <ul class="nav">
+                    <li class="nav-list">პროექტის შესახებ</li>
+                    <li class="nav-list">მოთხოვნები</li>
+                    <li class="nav-list">EXPLORE</li>
+                    <li class="nav-list">შესვლა</li>
+                </ul>
+                <i class="fas fa-search"></i>
+            </div>
             <div class="chevron">
                 <i class="fas fa-chevron-circle-down"></i>
             </div>
@@ -30,22 +33,42 @@
     <section>
         <div class="map">
             <img class="map-img" src="img/map.svg" alt="map">
+            <form action="/action_page.php">
+                <div class="form">
+                    <label class="title" for="Name">Name</label>
+                    <input class="input" type="text" id="name" name="Name" placeholder="...type your name">
+                    <label class="title" for="email">E-mail</label>
+                    <input class="input" type="text" id="email" name="E-mail" placeholder="...type your e-mail">
+                    <label class="title" for="subject">Subject</label>
+                    <input class="input" type="text" id="subject" name="Subject" placeholder="...type the mail subject">
+                    <label class="title" for="message">Message</label>
+                    <input class="input2" type="text" id="subject" name="Subject" placeholder="">
+                    <input class="submit" type="submit" value="SEND">
+
+            </form>
         </div>
+        </div>
+
     </section>
 
     <footer>
         <div class="footer">
             <div class="container">
                 <img class="white" src="img/white.svg" alt="white">
-                <ul>
+                <ul class="footer-text">
                     <li>კონტაქტი</li>
                     <li>+995 0322 38 08 02</li>
                     <li>info@lucapolare.com</li>
                 </ul>
-                <ul>
+                <ul class="footer-text">
                     <li>მისამართი</li>
                     <li>მერაბ ალექსიძის ქუჩა 10. თბილისი</li>
                 </ul>
+                <div class="social">
+                    <i class="fab fa-facebook fb"></i>
+                    <i class="fab fa-instagram ig"></i>
+                </div>
+                
             </div>
         </div>
     </footer>

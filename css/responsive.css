@@ -1,1 +1,23 @@
-@media
+/* navigation */
+@media (max-width: 820px) {
+    .nav-list {
+        display: none;
+    }
+    .chevron {
+        display: block;
+        margin-top: 73px;
+    }
+    .fa-search {
+        display: none;
+    }
+    .form {
+        display: flex;
+        
+        justify-content: center;
+    }
+    .input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
